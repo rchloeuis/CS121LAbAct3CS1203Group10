@@ -123,6 +123,6 @@ class ECash(BankAccount, PaymentMethod):
 - The ```Transfer()``` method in the PaymentMethod abstract class is implemented differently in CashOnly, CreditCard, and ECash. Each subclass provides its own version of Transfer(), but they can all be used interchangeably through the PaymentMethod interface.
 - The ```Savings```, ```Bills```, and ```Loan``` classes interact with ```ConcreteBankAccount``` objects, but the specific implementation of ```is_account_active()``` or ```_security_check()``` is determined at runtime.
 
-#Acknowledgement
+# Acknowledgement
 This program is a pratial fulfillment of academic requirements in CS 121. We want to acknowledge Ms. Fatima Agdon for her guidance and aid throughout the development and production of this program.
 
